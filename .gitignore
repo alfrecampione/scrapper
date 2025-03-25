@@ -1,0 +1,11 @@
+# Python-related
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# WebDriver binaries
+drivers/
+*.zip
+
+.vscode/
