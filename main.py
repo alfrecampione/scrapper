@@ -3,7 +3,8 @@ from game_level.game import scrape_links
 import pyperclip
 
 url = input("Enter the base URL: ")
-print("1. edge\n 2. chrome\n 3. firefox")
+print("1. edge\n2. chrome\n3. firefox")
+
 
 explorer = input("Enter the browser: ")
 if explorer == "1":

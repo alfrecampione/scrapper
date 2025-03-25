@@ -9,7 +9,7 @@ def scrape_links(base_url, driver: webdriver.Edge):
         # Open the base URL
         driver.get(base_url)
 
-        WebDriverWait(driver, 20).until(
+        WebDriverWait(driver, 60).until(
             EC.presence_of_all_elements_located((By.TAG_NAME, "a"))
         )
 
