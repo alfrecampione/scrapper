@@ -43,3 +43,6 @@ set-sys-path:
 # Clean up drivers
 clean:
     rm -rf $(DRIVER_DIR)
+
+run:
+    $(PYTHON) main.py
